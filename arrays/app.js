@@ -13,6 +13,6 @@ console.log(bestFriend);
 friend[2] = "jim";
 console.log(friend);
 
-// how to add an element to an array in javascript
+// how to add an element to an array in javascripts
 friend.push("jim");
 console.log(friend);
