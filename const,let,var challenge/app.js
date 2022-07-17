@@ -9,7 +9,7 @@ console.log(firstName, lastName, address);
 
 // ## Concatenate Strings #2
 
-const street = "123 Main Street";
+const street = "123's Main Street";
 const country = "USA";
 
 const fullMailingAddress = street + " " + country;
