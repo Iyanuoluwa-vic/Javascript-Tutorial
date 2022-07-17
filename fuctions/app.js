@@ -8,3 +8,10 @@ function hello() {
 //  invoke the function
 hello();
 hello();
+
+// passing in arguments to the function
+function greet(name) {
+  console.log("hello there " + name);
+}
+
+greet("james");
