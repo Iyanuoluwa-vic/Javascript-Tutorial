@@ -24,3 +24,17 @@ function area(width, height) {
 }
 
 console.log("calculated area is " + area(width, height));
+
+// fuction expresssion
+
+// instead of creating a function
+function newArea(width, height) {
+  return (area = width * height);
+}
+
+// a fuction expresssion was used
+const getArea = function (width, height) {
+  return width * height;
+};
+
+console.log(getArea(width, height));
