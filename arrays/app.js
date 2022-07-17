@@ -1,25 +1,18 @@
-// Data Types - 7 total
-// Primitive - String, Number, Boolean, Null, Undefined, Symbol
-// Object - Arrays, Functions, Objects
+// how to create an array in javascript
+const friend = ["john", "jane", "joe", undefined, null];
+console.log(friend);
 
-// typeof - operator (typeof variable) (typeof value)
+//  how to access the elements of an array in javascript using index
+console.log(friend[0]);
+console.log(friend[1]);
 
-// String
-const text = "some text";
-// Number
-const number = 45;
-// Boolean
-let value1 = true;
-let value2 = false;
-// Null
-const result = null;
-// Undefined
-let name;
-// Symbol(ES6)
-console.log(typeof text);
-console.log(typeof true);
-console.log(typeof number);
-console.log(typeof value1);
-console.log(typeof value2);
-console.log(typeof null);
-console.log(typeof name);
+let bestFriend = friend[2];
+console.log(bestFriend);
+
+// change the value of an element in an array
+friend[2] = "jim";
+console.log(friend);
+
+// how to add an element to an array in javascript
+friend.push("jim");
+console.log(friend);
