@@ -139,3 +139,38 @@ console.log(car.model);
 console.log(car.colors[0]);
 car.drive();
 car.stop();
+
+// # Conditional Statements #7
+
+// 1. create two objects "person1", "person2"
+// 2. setup name,age (15-25),
+//    status ('resident', 'tourist') keys
+
+// 3. setup if else, condition where
+//    age must be bigger than 18 and status must be
+//    equal to 'resident'
+// 4. test with both objects
+
+const person1 = {
+  name: "John",
+  age: 15,
+  status: "resident",
+};
+
+const person2 = {
+  name: "mike",
+  age: 17,
+  status: "tourist",
+};
+
+if (person1.age > 18 || person1.status == "resident") {
+  console.log("age is greater than 18 and status is resident");
+} else {
+  console.log("age is not greater than 18 and status is not resident");
+}
+
+if (person2.age > 18 || person2.status == "resident") {
+  console.log("age is greater than 18 and status is resident");
+} else {
+  console.log("age is not greater than 18 and status is not resident");
+}
