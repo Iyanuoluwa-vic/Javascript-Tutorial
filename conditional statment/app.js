@@ -8,3 +8,13 @@ if (num2 > num1) {
 } else {
   console.log("it is equal");
 }
+
+// equality operator
+const num3 = 10;
+const num4 = 20;
+
+if (num3 == num4) {
+  console.log("it is equal");
+} else {
+  console.log("it is not equal");
+}
