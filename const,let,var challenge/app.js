@@ -107,3 +107,35 @@ const order4 = total(100, 10);
 const order5 = total(200, 20);
 const order6 = total(300, 30);
 console.log(order4, order5, order6);
+
+// ## Objects #6
+
+// 1. create car object
+// 2. add make, model, year, colors (array),
+//    hybrid (boolean) keys
+// 3. add two methods (drive and stop)
+// 4. in the function body setup log with random text
+// 5. log make
+// 6. log first color
+// 7. invoke both methods
+
+const car = {
+  make: "ford",
+  model: "mustang",
+  year: "1832",
+  colors: ["blue", "red", "yellow"],
+  hybrid: true,
+
+  drive: function () {
+    console.log("driving");
+  },
+  stop: function () {
+    console.log("stopping");
+  },
+};
+
+console.log(car.make);
+console.log(car.model);
+console.log(car.colors[0]);
+car.drive();
+car.stop();
